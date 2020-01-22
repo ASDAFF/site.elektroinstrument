@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /bitrix/
+Disallow: /admin/
+Disallow: /index.php
+Disallow: *?q=
+Disallow: /personal

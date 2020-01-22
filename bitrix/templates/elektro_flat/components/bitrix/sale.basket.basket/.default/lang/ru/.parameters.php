@@ -1,0 +1,37 @@
+<?
+$MESS["IBLOCK_TYPE"] = "Тип инфоблока";
+$MESS["IBLOCK_IBLOCK"] = "Инфоблок";
+$MESS["IBLOCK_IMG_WIDTH"] = "Ширина картинки для анонса";
+$MESS["IBLOCK_IMG_HEIGHT"] = "Высота картинки для анонса";
+$MESS["IBLOCK_PROPERTY"] = "Свойства";
+$MESS["IBLOCK_PROPERTY_MOD"] = "Свойства для выбора (значения которых сможет выбрать покупатель)";
+$MESS["IBLOCK_SORT_ASC"] = "по возрастанию";
+$MESS["IBLOCK_SORT_DESC"] = "по убыванию";
+$MESS["IBLOCK_ELEMENT_SORT_FIELD"] = "По какому полю сортируем элементы";
+$MESS["IBLOCK_ELEMENT_SORT_ORDER"] = "Порядок сортировки элементов";
+$MESS["IBLOCK_PRICE_CODE"] = "Тип цены";
+$MESS["IBLOCK_DESC_DISPLAY_COMPARE"] = "Выводить кнопку сравнения";
+$MESS["IBLOCK_VAT_INCLUDE"] = "Включать НДС в цену";
+$MESS["OFFERS_FIELD_CODE"] = "Поля предложений";
+$MESS["OFFERS_PROPERTY_CODE"] = "Свойства предложений";
+$MESS["OFFERS_SORT_FIELD"] = "По какому полю сортируем предложения товара";
+$MESS["OFFERS_SORT_ORDER"] = "Порядок сортировки предложений товара";
+$MESS["OFFERS_SORT_FIELD2"] = "Поле для второй сортировки предложений товара";
+$MESS["OFFERS_SORT_ORDER2"] = "Порядок второй сортировки предложений товара";
+$MESS["OFFERS_CART_PROPERTIES"] = "Свойства предложений, добавляемые в корзину";
+$MESS["CONVERT_CURRENCY"] = "Показывать цены в одной валюте";
+$MESS["CURRENCY_ID"] = "Валюта, в которую будут сконвертированы цены";
+$MESS["OFFERS_LIMIT"] = "Максимальное количество предложений для показа (0 - все)";
+$MESS["CP_BCT_PRODUCT_PROPERTIES"] = "Характеристики товара";
+$MESS["CP_BCT_HIDE_NOT_AVAILABLE"] = "Не отображать товары, которых нет на складах";
+$MESS["CP_BC_TPL_USE_BIG_DATA"] = "Показывать персональные рекомендации";
+$MESS["CP_BC_TPL_BIG_DATA_RCM_TYPE"] = "Тип рекомендации";
+$MESS["CP_BC_TPL_RCM_BESTSELLERS"] = "Самые продаваемые";
+$MESS["CP_BC_TPL_RCM_PERSONAL"] = "Персональные рекомендации";
+$MESS["CP_BC_TPL_RCM_SOLD_WITH"] = "Продаваемые с этим товаром";
+$MESS["CP_BC_TPL_RCM_VIEWED_WITH"] = "Просматриваемые с этим товаром";
+$MESS["CP_BC_TPL_RCM_SIMILAR"] = "Похожие товары";
+$MESS["CP_BC_TPL_RCM_SIMILAR_ANY"] = "Продаваемые/Просматриваемые/Похожие товары";
+$MESS["CP_BC_TPL_RCM_PERSONAL_WBEST"] = "Самые продаваемые/Персональные";
+$MESS["CP_BC_TPL_RCM_RAND"] = "Любая рекомендация";
+?>

@@ -1,0 +1,41 @@
+.contacts-wrapper #contacts_map_wrapper {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.contacts-wrapper .contacts-ul {
+    margin-bottom: 20px;
+}
+
+.contacts-wrapper .tabbable {
+    margin-top: 15px;
+}
+
+.contacts-wrapper .contacts-ul > li > a {
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.contacts-wrapper .contacts-ul > .active > a,
+.contacts-wrapper .contacts-ul > .active > a:hover,
+.contacts-wrapper .contacts-ul > .active > a:focus {
+    background-image: none;
+    border-color: #BABABA #BABABA transparent;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contacts-wrapper .name-contact,
+.contacts-wrapper .name-contact a {
+    font-family: Arial;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.contacts-wrapper .contact-a {
+    display: block;
+    height: 210px;
+}

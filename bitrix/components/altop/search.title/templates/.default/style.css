@@ -1,0 +1,331 @@
+/***SEARCH_CONTAINER***/
+#altop_search {
+	height:46px;
+	float:left;
+	padding:0px;
+	position:relative;
+}
+
+#altop_search form{
+	margin:0px;
+	padding:0px;
+}
+
+#altop_search form .fa-search{
+	position:absolute;
+	left:12px;
+	top:50%;
+	margin:-10px 0px 0px 0px;
+	padding:0px;
+	font-size:20px;
+	color:#dee0ee;
+}
+
+#altop_search form input[type="text"]{
+	width:100%;
+	height:46px;
+	margin:0px;
+	padding:0px 80px 0px 42px;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family:"Open Sans", sans-serif;
+	font-size:14px;
+	color:#8184a1;
+	border:1px solid #fff;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	-khtml-border-radius:7px;
+	border-radius:7px;
+	background:#fff;
+}
+
+#altop_search form input[type="text"]:focus{ 
+	outline:none;
+}
+
+#altop_search form input[type="submit"]{
+	width:62px;
+	height:29px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	margin:0px;
+	padding:0px;
+	font-family:"Open Sans", sans-serif;
+	font-size:11px;
+	color:#8184a1;
+	text-transform:uppercase;
+	border:1px solid #dee0ee;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-khtml-border-radius:4px;
+	border-radius:4px;
+	background:none;
+	-webkit-transition:all 0.15s ease 0s;
+	-moz-transition:all 0.15s ease 0s;
+	-o-transition:all 0.15s ease 0s;
+	transition:all 0.15s ease 0s;
+	cursor:pointer;
+}
+
+#altop_search form input[type="submit"]:hover{
+	color:#fff;
+	border:1px solid #575b71;
+	background:#575b71;	
+}
+
+
+/***SEARCH_WAIT***/
+.title-search-wait i{
+	font-size:22px;
+	color:#dee0ee;
+}
+
+
+/***SEARCH_RESULT***/
+.title-search-result {
+	display:none;
+	margin:0px;
+	padding:0px;
+	border:4px solid #fde037;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-khtml-border-radius:6px;
+	border-radius:6px;
+	-webkit-box-shadow:0px 0px 15px rgba(0, 0, 0, 0.36);
+	-moz-box-shadow:0px 0px 15px rgba(0, 0, 0, 0.36);
+	box-shadow:0px 0px 15px rgba(0, 0, 0, 0.36);
+	background:#f4f5fd;
+	z-index:600;
+}
+
+.title-search-result:before {
+	content:"";
+	position:absolute;
+	left:27px;
+	top:-10px;
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-bottom:10px solid #fde037;
+}
+
+.title-search-result:after {
+	content:"";
+	position:absolute;
+	left:29px;
+	top:-4px;
+	border-left:8px solid transparent;
+	border-right:8px solid transparent;
+	border-bottom:8px solid #f4f5fd;
+}
+
+
+/***CATALOG_SEARCH***/
+.title-search-result #catalog_search {
+	width:100%;
+	float:left;
+	margin:3px 0px 8px 0px;
+	padding:0px;
+	border-top:1px solid #edeef8;
+}
+
+.title-search-result #catalog_search_empty {
+	margin:10px 0px;
+	padding:0px 12px 0px 14px;
+}
+
+.title-search-result #catalog_search a.search_all {
+	color:#a0a4bc;
+	text-decoration:underline;
+	float:right;
+	margin:6px 11px 0px 0px;
+	padding:0px;
+}
+
+.title-search-result #catalog_search a.search_all:hover {
+	color:#cc9900;
+	text-decoration:none;
+}
+
+.title-search-result .tvr_search {
+	width:100%;
+	float:left;
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid #edeef8;
+}
+
+.title-search-result .tvr_search:hover {
+	background:#fff;
+}
+
+.title-search-result .tvr_search .image {
+	width:82px;
+	height:66px;
+	float:left;
+	display:table;
+	margin:0px;
+	padding:0px;
+	background:#fff;
+}
+
+.title-search-result .tvr_search .image a {
+	text-align:center;
+	text-decoration:none;
+	display:table-cell;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .image a img {
+	width:auto;
+	max-width:66px;
+	height:auto;
+	max-height:66px;
+	border:none;
+}
+
+.title-search-result .tvr_search .item_title,
+.title-search-result .tvr_search .cat_title {
+	width:100%;
+	height:58px;
+	float:left;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+
+.title-search-result .tvr_search .item_title {
+	margin:4px -242px 4px -82px;
+	padding:0px 242px 0px 82px;
+}
+
+.title-search-result .tvr_search .cat_title {
+	margin:4px 0px 4px -82px;
+	padding:0px 0px 0px 82px;
+}
+
+.title-search-result .tvr_search .item_title a,
+.title-search-result .tvr_search .cat_title a {
+	color:#575b71;
+	text-align:left;
+	text-decoration:underline;
+	height:58px;
+	display:table-cell;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px 12px 0px 14px;
+}
+
+.title-search-result .tvr_search .cat_title a {
+	font-size:14px;
+	font-weight:700;
+}
+
+.title-search-result .tvr_search .item_title a:hover,
+.title-search-result .tvr_search .cat_title a:hover {
+	color:#cc9900;
+	text-decoration:none;
+}
+
+.title-search-result .tvr_search .search_price {
+	text-align:right;
+	width:97px;
+	height:66px;
+	display:table-cell;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px 10px 0px 0px;
+}
+
+.title-search-result .tvr_search .search_price .price {
+	font-size:18px;
+	font-weight:700;
+	color:#000;
+}
+
+.title-search-result .tvr_search .search_price .price span {
+	font-size:12px;
+	font-weight:400;
+	color:#8184a1;
+}
+
+.title-search-result .tvr_search .search_price .no-price {
+	font-size:12px;
+}
+
+.title-search-result .tvr_search .buy_more {
+	width:145px;
+	height:66px;
+	display:table-cell;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more .add2basket_block {
+	float:right;
+	margin:0px 12px 0px 0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more a.minus,
+.title-search-result .tvr_search .buy_more a.plus{
+	width:22px;
+	height:23px;
+	float:left;
+	display:table;
+	margin:3px 0px 0px 0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more a.minus span,
+.title-search-result .tvr_search .buy_more a.plus span{
+	display:table-cell;
+	vertical-align:middle;
+	margin:0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more input[name="quantity"]{
+	width:32px;
+	height:19px;
+	float:left;
+	margin:3px 0px 0px 0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more form button[name="add2basket"],
+.title-search-result .tvr_search .buy_more small.result {
+	width:37px;
+	height:29px;
+	float:left;
+	margin:0px 0px 0px 5px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more form button[name="add2basket"] i,
+.title-search-result .tvr_search .buy_more small.result i {
+	margin:0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more .apuo{
+	width:119px;
+	height:27px;
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+
+.title-search-result .tvr_search .buy_more .apuo i{
+	margin:0px;
+	padding:0px 7px 0px 0px;
+}
+
+.title-search-result .tvr_search .buy_more .hidden {
+	display:none;
+}

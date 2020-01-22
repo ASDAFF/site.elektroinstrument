@@ -1,0 +1,5 @@
+<?
+$MESS["CATALOG_ELEMENT_NEWPRODUCT"] = "New";
+$MESS["CATALOG_ELEMENT_SALELEADER"] = "Хит";
+$MESS["CATALOG_ELEMENT_NO_PRICE"] = "Не указана цена";
+?>

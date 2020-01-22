@@ -1,0 +1,35 @@
+<?
+$MESS["ALTOP_IBLOCK_PRICES"] = "Цены";
+$MESS["ALTOP_IBLOCK_TYPE"] = "Тип инфоблока";
+$MESS["ALTOP_IBLOCK_IBLOCK"] = "Инфоблок";
+$MESS["ALTOP_IBLOCK_SORT_ASC"] = "по возрастанию";
+$MESS["ALTOP_IBLOCK_SORT_DESC"] = "по убыванию";
+$MESS["ALTOP_IBLOCK_PROPERTY_MOD"] = "Свойства для выбора (значения которых сможет выбрать покупатель)";
+$MESS["ALTOP_BST_FORM_PAGE"] = "Страница выдачи результатов поиска (доступен макрос #SITE_DIR#)";
+$MESS["ALTOP_BST_NUM_CATEGORIES"] = "Количество категорий поиска";
+$MESS["ALTOP_BST_NUM_CATEGORY"] = "Категория ##NUM#";
+$MESS["ALTOP_BST_CATEGORY_TITLE"] = "Название категории";
+$MESS["ALTOP_BST_TOP_COUNT"] = "Количество результатов в каждой категории";
+$MESS["ALTOP_BST_CHECK_DATES"] = "Искать только в активных по дате документах";
+$MESS["ALTOP_BST_USE_LANGUAGE_GUESS"] = "Включить автоопределение раскладки клавиатуры";
+$MESS["ALTOP_BST_ORDER"] = "Сортировка результатов";
+$MESS["ALTOP_BST_ORDER_BY_DATE"] = "по дате";
+$MESS["ALTOP_BST_ORDER_BY_RANK"] = "по релевантности";
+$MESS["ALTOP_MARGIN_PANEL_TOP"] = "Отступ формы ввода поискового запроса сверху, px";
+$MESS["ALTOP_MARGIN_PANEL_LEFT"] = "Отступ формы ввода поискового запроса слева, px";
+$MESS["ALTOP_SHOW_PRICE"] = "Отображать цену";
+$MESS["ALTOP_IBLOCK_PRICE_CODE"] = "Тип цены";
+$MESS["ALTOP_IBLOCK_VAT_INCLUDE"] = "Включать НДС в цену";
+$MESS["ALTOP_SHOW_ADD_TO_CART"] = "Отображать кнопку 'В корзину'";
+$MESS["ALTOP_SHOW_ALL_RESULTS"] = "Отображать ссылку 'Все результаты'";
+$MESS["ALTOP_OFFERS_FIELD_CODE"] = "Поля предложений";
+$MESS["ALTOP_OFFERS_PROPERTY_CODE"] = "Свойства предложений";
+$MESS["ALTOP_OFFERS_SORT_FIELD"] = "По какому полю сортируем предложения товара";
+$MESS["ALTOP_OFFERS_SORT_ORDER"] = "Порядок сортировки предложений товара";
+$MESS["ALTOP_OFFERS_SORT_FIELD2"] = "Поле для второй сортировки предложений товара";
+$MESS["ALTOP_OFFERS_SORT_ORDER2"] = "Порядок второй сортировки предложений товара";
+$MESS["ALTOP_OFFERS_CART_PROPERTIES"] = "Свойства предложений, добавляемые в корзину";
+$MESS["ALTOP_CONVERT_CURRENCY"] = "Показывать цены в одной валюте";
+$MESS["ALTOP_CURRENCY_ID"] = "Валюта, в которую будут сконвертированы цены";
+$MESS["ALTOP_OFFERS_LIMIT"] = "Максимальное количество предложений для показа (0 - все)";
+?>
